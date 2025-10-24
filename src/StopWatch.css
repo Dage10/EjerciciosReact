@@ -1,0 +1,57 @@
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    margin: 1rem auto;
+    width: 25rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border: 5px solid;
+    
+}
+
+.display{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(171, 54%, 52%);
+    text-shadow: 2px 2px 2px hsl(0,0%,0%,0.75);
+    margin-bottom: 1rem;
+}
+
+.controls button {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    min-width: 6rem;
+    border-radius: 0.7rem;
+    border: none;
+    color:white;
+    transition: background-color 0.5s ease;
+}
+
+.start-button {
+    background-color: hsl(115, 100%, 40%);
+}
+
+.start-button:hover {
+    background-color: hsl(115, 100%, 35%);
+}
+
+.stop-button {
+    background-color: hsl(10, 90%, 50%);
+}
+
+.stop-button:hover {
+    background-color: hsl(10, 90%, 45%);
+}
+
+.reset-button {
+    background-color: hsl(205, 90%, 60%);
+}
+
+.reset-button:hover {
+    background-color: hsl(205, 90%, 55%);
+}

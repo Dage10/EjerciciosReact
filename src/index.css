@@ -1,0 +1,245 @@
+.carta{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius:10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%,0.1);
+  padding:20px;
+  margin:10px;
+  text-align: center;
+  max-width: 250px;
+  display:inline-block;
+}
+
+.carta .imatge{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom:10px;
+}
+
+.carta .titol{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+
+.carta .text{
+  font-family: Arial,sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+.estudiant{
+  font-family: Arial,sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0,0%,50%,0.8);
+}
+.estudiant p {
+  margin: 0;
+}
+
+.missatge-benvinguda {
+  font-size: 2.5em;
+  background-color: hsl(120,100%,42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin:0;
+}
+
+.login-missatge {
+  font-size: 2.5em;
+  background-color: hsl(0, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin:0;
+}
+
+.llista-categoria{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0,0%,20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185,100%,50%);
+}
+
+.llistar-items li {
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0,0%,25%);
+  text-align: center;
+  margin: 0;
+}
+
+.llistar-items li:hover{
+  color: hsl(0,0%,45%);
+  cursor: pointer;
+}
+
+.comptador-contenidor {
+  text-align: center;
+  font-family: Arial,sans-serif;
+}
+.mostrar-comptador {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px
+  
+
+}
+.comptador-boto {
+
+  width:150px;
+  height:50px;
+  font-size:1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(197,100%,58%);
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+
+}
+
+.comptador-boto:hover{
+    background-color: hsl(197,100%,48%);
+}
+
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.color-picker {
+  margin:50px;
+  font-size: 3rem;
+}
+
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0,0%,80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p {
+  color: hsl(0,0%,20%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+label.color-pick {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.llista-coses-per-fer {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 1rem auto;
+  padding: 20px;
+  border: 2px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+}
+.llista-coses-per-fer input {
+  width: 70%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.llista-coses-per-fer button {
+  padding: 10px 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(197, 100%, 58%);
+  color: white;
+  cursor: pointer;
+}
+
+.llista-coses-per-fer button.afegir{
+  background-color: rgb(32, 250, 76);
+  font-weight: bold;
+}
+.llista-coses-per-fer button.eliminar{
+  background-color: rgb(250, 32, 32);
+  font-weight: bold;
+}
+
+.llista-coses-per-fer button.moure-amunt,
+.llista-coses-per-fer button.moure-avall,
+.llista-coses-per-fer button.eliminar{
+  margin-left: 0.5rem;
+}
+
+.llista-coses-per-fer li button {
+  margin-left: 50rem;
+}
+
+.llista-coses-per-fer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.llista-coses-per-fer li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 97%);
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.botons-tasca button {
+  margin-left: 0.5rem;
+}
+
+
+.llista-coses-per-fer-titol {
+  text-align: center;
+  color: hsl(0, 0%, 20%);
+}
+
+.botons-tasca {
+  margin-left: 10rem;
+}
+
+.rellotge-digital-contenidor {
+  background-image: url(assets/fondo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color:white;
+  font-size: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rellotge-digital {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
+}
